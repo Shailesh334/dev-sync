@@ -1,6 +1,4 @@
-
 import { ReactNode } from "react";
-
 
 const LoginLayout = ({
     children
@@ -8,7 +6,7 @@ const LoginLayout = ({
     children : ReactNode
 }) => {
     return ( 
-        <div className="w-fit h-full bg-green-400 text-white">
+        <div className="bg-red-700 h-full text-white">
             {children}
         </div>
      );

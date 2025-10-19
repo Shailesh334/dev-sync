@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
+import LandingPage from "./(landing)/page";
 
 
 export default function Home() {
   return (
     <div >
-        <Button className="bg-emerald-400 text-white">Click me</Button>
+        <LandingPage />
     </div>
   );
 }

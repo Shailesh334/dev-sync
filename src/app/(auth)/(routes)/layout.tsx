@@ -1,17 +1,15 @@
-
 import { ReactNode } from "react";
 
-
-const LoginLayout = ({
-    children
+const RoutesLayout = ({
+    children 
 } : {
     children : ReactNode
 }) => {
     return ( 
-        <div className="w-fit h-full bg-green-400 text-white">
+        <div className="h-full bg-amber-800 text-white">
             {children}
         </div>
      );
 }
  
-export default LoginLayout;
+export default RoutesLayout;
