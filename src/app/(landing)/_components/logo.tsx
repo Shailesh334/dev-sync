@@ -9,7 +9,15 @@ const Logo = () => {
                 alt="logo"
                 width={20}
                 height={20}
-            
+                className="dark:hidden"
+            />
+
+             <Image 
+                src="logo-dark.svg"
+                alt="logo"
+                width={20}
+                height={20}
+                className="hidden dark:block"
             />
             <h4 className="font-bold p-2 font-mono">Zotion</h4>
         </div>

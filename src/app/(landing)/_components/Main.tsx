@@ -21,23 +21,41 @@ const Main = () => {
             </div>
       </div>
       <div className="flex gap-4">
-      <div className="relative aspect-square overflow-hidden">
+        <div className="relative aspect-square overflow-hidden">
+          <Image
+          src="/team.svg"   // path relative to /public
+          alt="Logo"
+          width={400}
+          height={400}
+          className="dark:hidden"
+        />
         <Image
-        src="/team.svg"   // path relative to /public
-        alt="Logo"
-        width={400}
-        height={400}
-      />
-      </div>
-      <div className="relative aspect-square overflow-hidden hidden md:block">
+          src="/team-dark.svg"   // path relative to /public
+          alt="Logo"
+          width={400}
+          height={400}
+          className="hidden dark:block"
+        />
+        </div>
+        <div className="relative aspect-square overflow-hidden hidden md:block">
         <Image
-        src="/idea.svg"   // path relative to /public
-        alt="Logo"
-        width={400}
-        height={400}
-      />
+          src="/idea.svg"   // path relative to /public
+          alt="Logo"
+          width={400}
+          height={400}
+          className="dark:hidden"
+        />
+        <Image
+          src="/team-dark.svg"   // path relative to /public
+          alt="Logo"
+          width={400}
+          height={400}
+          className="hidden dark:block"
+        />
+        </div>
+
       </div>
-      </div>
+   
     </div>
   );
 };

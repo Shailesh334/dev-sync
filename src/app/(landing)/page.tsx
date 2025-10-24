@@ -4,7 +4,7 @@ import Main from "./_components/Main";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="dark:bg-[#1f1f1f]">
       <Main />
       <Footer />
     </div>
