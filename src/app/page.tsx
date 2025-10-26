@@ -16,7 +16,7 @@ const Page = () => {
         else{
             router.push('/landing');
         }
-      }, [isSignedIn, router]);
+      }, []);
 
   return <div></div>;
 };

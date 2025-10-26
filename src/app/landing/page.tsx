@@ -9,17 +9,7 @@ import { useUser } from "@clerk/nextjs";
 
 const LandingPage = () => {
 
-    const { isSignedIn } = useUser();
-      const router = useRouter();
-    
-      useEffect(() => {
-        if (isSignedIn) {
-          router.push('/dashboard');
-        }
-        else{
-            router.push('/landing');
-        }
-      }, [isSignedIn, router]);
+
 
 
   return (

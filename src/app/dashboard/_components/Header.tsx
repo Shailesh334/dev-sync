@@ -20,7 +20,7 @@ const Header = () => {
             <div className='text-xl md:text-2xl'>{user.fullName}&apos;s <span className='text-base text-slate-900 dark:text-white'>space</span></div>
         </div>
         <div className='flex items-center gap-4'>
-            <UserButton />
+            <UserButton afterSignOutUrl='/landing'/>
             <ModeToggle />
          </div>
          
